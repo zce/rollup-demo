@@ -1,5 +1,4 @@
-import json from 'rollup-plugin-json'
-import resolve from 'rollup-plugin-node-resolve'
+import resolve from '@rollup/plugin-node-resolve'
 
 export default {
   input: 'src/index.js',
@@ -8,7 +7,6 @@ export default {
     format: 'es'
   },
   plugins: [
-    json(),
     resolve()
   ]
 }

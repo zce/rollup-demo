@@ -5,6 +5,6 @@
   "author": "zce <w@zce.me> (https://zce.me)",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^1.26.3"
+    "rollup": "^1.32.1"
   }
 }
